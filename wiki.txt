@@ -1,0 +1,1 @@
+docker run --name my-mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_DATABASE=azienda -e MYSQL_USER=prova -e MYSQL_PASSWORD=prova -p 3306:3306 -d mysql

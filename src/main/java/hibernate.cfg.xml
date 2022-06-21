@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/azienda</property>
+        <property name="hibernate.connection.username">prova</property>
+        <property name="hibernate.connection.password">prova</property>
+        <property name="hibernate.connection.pool_size">3</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.show_sql">true</property>
+<!--         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property> -->
+        
+
+        <property name="format_sql">true</property>
+    <property name="hbm2ddl.auto">create</property>
+<!--      <mapping class="jdbcproject1.domain.Message" /> -->
+<!--      <mapping class="jdbcproject1.domain.Address" /> -->
+<!--          <mapping class="jdbcproject1.domain.Contobancario" /> -->
+<!--      <mapping class="jdbcproject1.domain.Cartadicredito" /> -->
+<!--        <mapping class="jdbcproject1.domain.ContobancarioPC" /> -->
+<!--      <mapping class="jdbcproject1.domain.CartadicreditoPC" /> -->
+<!--      <mapping class="jdbcproject1.domain.User" /> -->
+<!--       <mapping class="jdbcproject1.domain.Meal" /> -->
+<!--       <mapping class="jdbcproject1.domain.ContactInfo" /> -->
+<!--         <mapping class="com.example.demojpa.entities.Post" /> -->
+<!--            <mapping class="com.example.demojpa.entities.PostComment" /> -->
+<!--            <mapping class="com.example.demojpa.entities.Ordine"/> -->
+<!--            <mapping class="com.example.demojpa.entities.Customer"/> -->
+<!--            <mapping class="com.example.demojpa.entities.Prodotto"/> -->
+<!--             <mapping class="com.example.demojpa.entities.Docente"/> -->
+<!--              <mapping class="com.example.demojpa.entities.Corso"/> -->
+    </session-factory>
+</hibernate-configuration>
